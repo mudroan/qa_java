@@ -9,7 +9,6 @@ public class Feline extends Animal implements Predator {
         return getFood("Хищник");
     }
 
-    @Override
     public String getFamily() {
         return "Кошачьи";
     }
@@ -17,9 +16,7 @@ public class Feline extends Animal implements Predator {
     public int getKittens() {
         return getKittens(1);
     }
-
     public int getKittens(int kittensCount) {
         return kittensCount;
     }
-
 }
